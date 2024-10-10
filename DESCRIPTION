@@ -1,0 +1,31 @@
+Package: outlierdetect
+Title: Robust estimation of regression models
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zhan", "Gao", , "zhangao@usc.edu", role = c("aut", "cre"))
+Description: Methods proposed in Gao and Moon (2022)
+Imports:
+    ggplot2,
+    quantreg,
+    Matrix,
+    reshape2,
+    latex2exp,
+    foreach,
+    parallel,
+    doParallel,
+    tibble,
+    dplyr,
+    tidyr,
+    glmnet,
+    gurobi
+suggests:
+    CVXR,
+    LasForecast,
+    robustsubsets
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
